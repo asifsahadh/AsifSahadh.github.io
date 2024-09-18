@@ -3285,7 +3285,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding:10rem 4rem 10rem 4rem ; /* title padding */
+		padding:10rem 4rem 9.5rem 4rem ; /* title padding */
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3311,6 +3311,12 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
+	}
+
+	@media screen and (max-width: 900px) {
+		#intro {
+			padding:4rem 3rem 15rem 3rem !important; /* Adjusted title size for mobile */
+		}
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3395,6 +3401,16 @@ input, select, textarea {
 			font-style: italic;
 			margin-top: -1.0rem;
 			text-align: center;
+		}
+
+		@media screen and (max-width: 900px) {
+			#intro h1 {
+				font-size: 1rem; /* Adjusted title size for mobile */
+			}
+
+			#intro p {
+				font-size: 1rem; /* Adjusted paragraph size for mobile */
+			}
 		}
 
 		#intro + #header {
