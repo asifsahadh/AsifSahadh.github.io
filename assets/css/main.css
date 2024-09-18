@@ -3285,7 +3285,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 10rem 4rem 10rem 4rem ;
+		padding:10rem 4rem 10rem 4rem ; /* title padding */
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3386,14 +3386,14 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 4.80rem;
+			font-size: 4.80rem; /* title size */
 			line-height: 1;
 		}
 
 		#intro p {
 			font-size: 1.3rem;
 			font-style: italic;
-			margin-top: -0.25rem;
+			margin-top: -1.0rem;
 			text-align: center;
 		}
 
